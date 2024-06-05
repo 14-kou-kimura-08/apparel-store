@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>商品管理システム</title>
+
+    <!-- /admin/products/products.cssをstylesheetとして追加 -->
     <link rel="stylesheet" href="/admin/products/products.css">
 </head>
 
@@ -23,6 +25,9 @@
             <div id="message"></div>
             <div id="errorMessage" style="color: red;"></div>
             <a href="/admin/products/create" class="new-product-button">新規作成</a>
+
+            <!-- 商品一覧を表示するテーブル -->
+            <!-- 商品名、金額、画像、在庫数、編集 というテーブルヘッダーを持つ -->
             <table>
                 <thead>
                     <tr>
@@ -38,6 +43,7 @@
         </section>
     </main>
 
+    <!-- /admin/products/products.jsをscriptとして追加 -->
     <script src="/admin/products/products.js"></script>
 </body>
 
